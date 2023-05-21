@@ -17,6 +17,8 @@ body {
     background: #f4f4f4;
     background-image: url("../images/boxingbackground.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     text-shadow: 2px 2px 5px #333;
 }
 
