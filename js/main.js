@@ -1,6 +1,7 @@
 // Challenger scripts
 let punchEl = document.getElementById("punch-el")
 let saveEL = document.getElementById("save-el")
+let totalEl = document.getElementById("total-el")
 let punch = 0
 
 function add() {
@@ -11,7 +12,15 @@ function add() {
 function previous() {
     let countStr = punch + " - "
     saveEL.textContent += countStr
+    // let totalNum = punch
+    // totalEl.textContent += parseInt(totalNum)
     punch = 0
+    punchEl.textContent = 0
+
+    let countStr2 = punch2 + " - "
+    saveEL2.textContent += countStr2
+    punch2 = 0
+    punchEl2.textContent = 0    
 }
 
 // Contender scripts
@@ -23,11 +32,3 @@ function add2() {
     punch2 += 1
     punchEl2.textContent = punch2
 }
-
-function previous2() {
-    let countStr2 = punch2 + " - "
-    saveEL2.textContent += countStr2
-    punch2 = 0
-}
-
-
