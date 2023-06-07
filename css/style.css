@@ -25,11 +25,12 @@ body {
 
 /* utilities */
 .txt-lg { text-transform: uppercase; }
-.txt-sm { 
+
+.txt-sm {
     font-size: 0.7rem;
     line-height: 0.5;
 }
-.txt-center { 
+.txt-center {
     text-align: center;
 }
 
@@ -74,7 +75,7 @@ a:hover {
     opacity: 0.8;
 }
 
-.btn {    
+.btn {
     padding: 15px 15px;
     margin-top: 1.25rem;
     border: none;
@@ -88,7 +89,7 @@ a:hover {
 
 .btn-dark {
     background: var(--highlight-color);
-    color: var(--light-color); 
+    color: var(--light-color);
 }
 
 .btn-green {
@@ -109,22 +110,18 @@ a:hover {
 .box-lg {
     background: var(--dark-color);
     color: var(--light-color);
-    margin-top: 10px;    
+    margin-top: 10px;
     width: 5rem;
     height: 4rem;
     text-align: center;
     font-size: 3.75rem;
-    border-radius: 5px;    
+    border-radius: 5px;
 }
 
 .inner-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 5px auto;
     background: var(--dark-color);
     border-radius: 5px;
+    padding-top: 5px;
 }
 
 .para {
