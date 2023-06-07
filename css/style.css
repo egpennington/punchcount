@@ -93,17 +93,15 @@ a:hover {
 }
 
 .btn-green {
+    display: inline-block;
     background: var(--neutrual-color);
     color: var(--light-color);
-    margin-left: 8rem;
-    margin-right: 8rem;
 }
 
 .bottom-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 2rem;
     margin-top: 1.25rem;
 }
 
